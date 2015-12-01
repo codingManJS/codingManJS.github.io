@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://yansu.org](http://yansu.org)
+地址：[http://codingmanjs.github.io/index.html](http://codingmanjs.github.io/index.html)
 
 ### 安装说明
 

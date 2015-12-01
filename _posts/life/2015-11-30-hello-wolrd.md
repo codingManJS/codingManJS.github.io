@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome
+category: 生活
 ---
 
 ## 欢迎你到来
