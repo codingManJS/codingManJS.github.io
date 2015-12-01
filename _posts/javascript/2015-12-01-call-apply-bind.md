@@ -8,7 +8,8 @@ category: JavaScript
 
 >  学过一点javascript的都知道call，apply，bind这三个货，能够改变函数的this指向，反正我也很糊涂搞三个干嘛，有什么区别呢？
 
-###  call
+###  ** call **
+
 首先看看MDN的解释：
 
 >    call()方法在使用一个指定的this值和若干个指定的参数值的前提下调用某个函数或方法.
@@ -50,7 +51,7 @@ var b = a.slice()
 Array.prototype.slice.call(arguments)
 首先它是复制一个数组的代码形式，call呢，就是改变slice中的this指向，arguments不用解释了，所以这个就是把arguments返回成数组的形式。
 
-###  apply
+###  **apply**
 
 其实apply和call没啥区别，我感觉啥玩意，要说有区别那就是参数个数不一样，apply是两个，第一个也是改变this指向的对象，第二个是数组（其实没啥区别，看看代码）
 
@@ -67,7 +68,7 @@ a.call(metroObj, metroArr[0], metroArr[1])
 //那apply就这样了，和call差不多
 ```
 
-### bind
+### **bind**
 
 其实感觉bind和前面call也差不多。。但是得注意一点就是bind返回函数，bind传参数的形式和call一样的，一摸一样的，就不讲了吧
 
