@@ -29,6 +29,7 @@ console.log(b.name)//'metro'
 >  Array.prototype.slice.call(arguments)  都看过这个吧...
 
 要想知道这段代码的意义，首先array的slice是干嘛的，看代码吧
+
 ```javascript
 
 var a = [1, 2, 3, 4]
@@ -38,6 +39,7 @@ var b = a.slice()
 //b = [1, 2, 3, 4]
 
 ```
+
 所以Array.prototype.slice这个东西可以返回一个数组，当然参数很重要，不传参数相当于复制一个数组，其他的很好理解，返回数组从start到end的位置元素.
 Array.prototype.slice.call(arguments)
 首先它是复制一个数组的代码形式，call呢，就是改变slice中的this指向，arguments不用解释了，所以这个就是把arguments返回成数组的形式。
