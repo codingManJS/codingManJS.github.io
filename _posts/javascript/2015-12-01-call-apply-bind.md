@@ -8,7 +8,7 @@ category: JavaScript
 
 >  学过一点javascript的都知道call，apply，bind这三个货，能够改变函数的this指向，反正我也很糊涂搞三个干嘛，有什么区别呢？
 
-###  **call**
+### **call**
 
 首先看看MDN的解释：
 
