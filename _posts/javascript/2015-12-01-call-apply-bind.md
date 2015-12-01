@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Welcome
+title: 胡说call,apply,bind
 category: JavaScript
 ---
-##  胡说call,apply,bind
-
+2015-12-01
 >  学过一点javascript的都知道call，apply，bind这三个货，能够改变函数的this指向，反正我也很糊涂搞三个干嘛，有什么区别呢？
 
 ###  call
@@ -31,11 +30,13 @@ console.log(b.name)//'metro'
 
 要想知道这段代码的意义，首先array的slice是干嘛的，看代码吧
 ```javascript
+
 var a = [1, 2, 3, 4]
 a.slice(0,1)//[1]
 a.slice(2)//[3, 4]
 var b = a.slice()
 //b = [1, 2, 3, 4]
+
 ```
 所以Array.prototype.slice这个东西可以返回一个数组，当然参数很重要，不传参数相当于复制一个数组，其他的很好理解，返回数组从start到end的位置元素.
 Array.prototype.slice.call(arguments)
