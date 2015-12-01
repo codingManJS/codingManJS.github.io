@@ -7,11 +7,10 @@ kramdown:
 
 # 作者信息
 author:
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: metro
+  email: codegeeke@outlook.com
+  link: http://codingmanjs.github.io/index.html
+  github: http://github.com/codingmanjs
 
 # 站点信息
 title: Metro的博客
