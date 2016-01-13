@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nginx study-install
+title: chrome 插件学习
 category: other
 ---
 
@@ -46,3 +46,23 @@ category: other
 }
 
 ```
+
+###  数据交流
+
+>  chrome插件中background，content_script, popup ,server4个部分之间如何数据交流？看下图
+
+![chrome 插件数据交流图解](http://chuantu.biz/t2/24/1452679544x1822611273.png)
+
+  其中可以看出background是重要的，这个相当于一个数据交流的中心。popup其实可以用chrome.extension.getBackgroundPage()获取background，所以他可以获取background上所有的东西，concontent_script和background通过sendMessage来通讯，整个chrome插件通过background来和server数据交流。
+
+### 代码
+
+
+写代码的话基本js吧，popup是你的插件交互用的界面，会用一些html，css之类的饿，基本上js就可以写好了，如果可以话 angularjs来做也可以，这里有个例子
+```
+  $  git clone git://github.com/GoogleChrome/chrome-app-codelab.git
+
+```
+还要注意chrome给的一些api，比如上面的sendMessage,getBackgroundPage。等等
+可以看这个网站，中文的很好
+ https://crxdoc-zh.appspot.com/apps/about_apps
