@@ -60,7 +60,9 @@ category: other
 
 写代码的话基本js吧，popup是你的插件交互用的界面，会用一些html，css之类的饿，基本上js就可以写好了，如果可以话 angularjs来做也可以，这里有个例子
 ```
+
   $  git clone git://github.com/GoogleChrome/chrome-app-codelab.git
+
 
 ```
 还要注意chrome给的一些api，比如上面的sendMessage,getBackgroundPage。等等
